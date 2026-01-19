@@ -41,6 +41,15 @@
     -webkit-text-fill-color: transparent;
 }
 
+.gradiant-2{
+    font-size: 4rem;
+    font-weight: bold;
+    background-image: linear-gradient(to right,  #F7E93F, #FB09B4, #9100F8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
 /* sheard-style */
 
 /* naveber-start */
@@ -101,6 +110,13 @@
 .microphone{
     position: relative;
     top: -280px;
+    transition: transform 10s ;
+}
+
+.microphone:hover{
+
+    transform: rotate(360deg);
+    
 }
 .hero-imag-crcl span{
     font-size: 1.2rem;
@@ -254,6 +270,7 @@
 
 .featured{
     background-color: #1A0B2E;
+   
 }
 .featured h2{
     font-size: 3rem;
@@ -305,4 +322,72 @@
     margin-top: 12px;
     align-items: center;
 }
+.host-section{
+    padding:  0 200px 120px;
+}
+..host-section h2{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.host-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 48px 40px;
+    background-color: #351165;
+    border-radius: 20px;
+    
+    
 
+}
+.host-container h3{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+
+}
+.host-container p{
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+}
+.socile{
+    display: flex;
+    text-align: left;
+}
+
+footer{
+    background-image: url("../assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 412px;
+}
+.footer-container{
+    text-align: center;
+    padding: 120px;
+}
+.footer-container h2{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.footer-container p{
+    font-size: 1rem;
+    font-weight: normal;
+    color: #FFFFFF;
+    text-align: center;
+}
+.footer-socile{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 32px 200px;
+
+}
