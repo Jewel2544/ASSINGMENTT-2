@@ -10,6 +10,9 @@
   font-style: normal;
 }
 /* sheard-style */
+.hidden{
+    display: none !important;
+}
 
 .primary-btn{
     font-size: 1rem;
@@ -391,3 +394,26 @@ footer{
     padding: 32px 200px;
 
 }
+
+
+
+
+/* responsiv */
+
+/* @media screen and (max-width:576px){
+
+    .naveber{
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+   
+}
+.hero{
+    background-image: url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 576;
+    width: 100%;
+    margin: 0;
+}
+} */
