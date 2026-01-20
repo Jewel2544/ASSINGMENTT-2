@@ -10,6 +10,10 @@
   font-style: normal;
 }
 /* sheard-style */
+/* .hidden{
+    display: none !important;
+} */
+
 .hidden{
     display: none !important;
 }
@@ -103,11 +107,11 @@
 
 
 }
-.hero-imag-crcl{
-   text-align: center;
-   position: relative;
-   left: 45px;
-   top: 40px;
+
+.hero-imag-crcl img{
+    position: relative;
+    left: 45px;
+    top: 40px;
 }
 .microphone{
     position: relative;
@@ -433,13 +437,10 @@ footer{
 .hero-imag-crcl{
     align-items: center;
     position: relative;
-    bottom: 60px;
-    
-    right: 40px;
 }
 .microphone img{
     position: relative;
-    top: 170px;
+    top: 150px;
     right: 4px;
     width: 80px;
     height: 90px;
