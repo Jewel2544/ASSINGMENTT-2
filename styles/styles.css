@@ -374,7 +374,7 @@ footer{
 }
 .footer-container{
     text-align: center;
-    padding: 120px;
+    padding: 70px;
 }
 .footer-container h2{
     font-size: 4rem;
@@ -398,22 +398,84 @@ footer{
 
 
 
-/* responsiv */
+/* responsiv */ 
 
-/* @media screen and (max-width:576px){
+@media screen and (max-width:576px){
 
     .naveber{
     padding: 10px 50px;
     display: flex;
-    align-items: center;
+    align-items:center;
+    justify-content: space-between;
    
 }
-.hero{
-    background-image: url("../assets/hero-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 576;
-    width: 100%;
-    margin: 0;
+.hidden{
+    display:flex !important;
 }
-} */
+.nav-manue {
+    display: none !important;
+.
+}
+.nav-btn{
+    display: none !important;
+}
+.prodcust-text {
+    padding: 10px;
+
+}
+.award-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding-bottom: 30px;
+}
+.Why-Choose-TechWave h2 {
+    padding: 40px;
+    font-size: 2rem;
+}
+.techwave{
+    display: flex;
+    flex-direction: column;
+}
+.featured h2 {
+    font-size: 2rem;
+    padding: 40px;
+}
+.video {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   
+    margin-bottom:20px;
+}
+.host-section {
+    padding: 20px;
+}
+.host-container {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer {
+    min-width: 95vw;
+    background-size: cover;
+    background-image: url(../assets/footer-bg.png);
+}
+.footer-container h2 {
+    font-size: 3rem;
+}
+.gradiant-2 {
+    font-size: 3rem;
+}   
+
+.footer-socile {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    grid-template-rows: repeat(2,1fr);
+    padding: 10px;
+    padding-bottom: 30px;
+}
+}
