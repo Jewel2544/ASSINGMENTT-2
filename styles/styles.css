@@ -131,8 +131,8 @@
     border-radius: 1000px;
     padding: 8px 26px;
     position: relative;
-    top: -330px;
-    right: 123px;
+    bottom: 280px;
+    right: 90px;
     
 }
 .hero-text{
@@ -445,7 +445,16 @@ footer{
     width: 80px;
     height: 90px;
 }
-
+.hero-imag-crcl .new {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #00FF88;
+    border-radius: 1000px;
+    padding: 8px 22px;
+    position: relative;
+    bottom: 135px;
+    right: 40px;
+}
 .hero-text h2 {
     font-size: 2.5rem;
    
