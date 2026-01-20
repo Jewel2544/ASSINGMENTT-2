@@ -296,8 +296,12 @@
     background-color: #270342;
     width: 380px;
     
-   
+   transition: transform 10s 1s;
 }
+.video-card:hover{
+    transform:  rotate(8deg) scale(1.1);
+}
+
 .card-text {
     text-align: left;
     padding: 10px;
@@ -417,6 +421,19 @@ footer{
 .nav-btn{
     display: none !important;
 }
+
+.hero {
+    background-image: url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 96vw;
+    height: 760px;
+    margin: 0;
+}
+.hero-imag-crcl{
+    width: -30vw;
+    padding-left:23px;
+}
 .prodcust-text {
     padding: 10px;
 
@@ -481,11 +498,11 @@ footer {
     overflow: hidden; 
     text-align: center;
     background-color: #270342;
-    width: 300px;
+    width: 70vw;
     
    
 }
 .video-card .ifrem{
-    width: 300px;
+    width:70vw;
 }
 }
