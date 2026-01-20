@@ -294,9 +294,7 @@
     overflow: hidden; 
     text-align: center;
     background-color: #270342;
-    padding: 0;
-    max-width: 380px;
-    max-height: ;
+    width: 380px;
     
    
 }
@@ -444,7 +442,7 @@ footer{
     display: flex;
     flex-direction: column;
     gap: 30px;
-   
+    padding: 25px;
     margin-bottom:20px;
 }
 .host-section {
